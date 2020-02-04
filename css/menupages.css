@@ -1,0 +1,16 @@
+/* styles for both classic and seasonal menu pages */
+
+.classic #main{
+    margin: 0 auto;
+    width: 940px;
+}
+
+.classic #main p{
+    margin-top: 15px;
+}
+
+.seasonal h1{
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 15px;
+}

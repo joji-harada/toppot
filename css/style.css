@@ -1,0 +1,443 @@
+/*CSS styles for Top Pot*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+/* baseline styles */
+
+html, body {
+    min-height: 100%; 
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+#header{
+    margin: 0 auto;
+    max-width: 940px;
+    clear: both;
+}
+
+.logo img{
+    max-width: 145px;
+    float: left;
+    margin: 5px;
+}
+
+.welcome-wrapper {
+    margin: 0 auto;
+    max-width: 940px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 20px;
+    overflow: hidden;
+}
+
+.welcome-wrapper figure{
+    float: right;
+    width: 30%;
+    margin-left: 10px;
+    border-radius: 1px;
+}
+
+#welcome-pic{
+    width: 100%;
+    border-radius: 1px;
+}
+
+#wrapper{
+    margin: 0 auto 40px auto;
+    max-width: 940px;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 20px 20px 10px 20px;
+    overflow: hidden;
+}
+
+#main{
+    float: right;
+    width: 58%;
+    height: 100%;
+}
+
+#aside{
+    float: left;
+    width: 39%;
+    height: 100%;
+}
+
+#aside img{
+    margin: 0 auto;
+    width: 98%;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+/* this devtag is the developer "footer" */
+#devtag{
+    width: 100%;
+    bottom: 0;
+    background-color: #211813;
+}
+
+#devtag p{
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    color: #dddddd;
+    font-size: 0.75em;
+}
+
+#devtag a{ 
+    color: #dddddd;
+}
+
+#devtag a:hover{
+    color: #ffffff;
+}
+
+#banner {
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 450px;
+    background: transparent;
+}
+
+#banner img{
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#banner2 {
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 350px;
+    background: transparent;
+}
+
+#banner2 img{
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#banner3 {
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 350px;
+    background: transparent;
+}
+
+#banner3 img{
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#social {
+    float: right;
+}
+
+#social ul {
+    position: relative;
+    list-style-type: none;
+    float: left;
+    margin-right: 15px;
+    height: 163px;
+}
+
+#social li {
+    margin-left: 10px;
+    float: left;
+}
+
+#social a {
+    color: #A2BDC8;
+    font-size: 2em;
+    line-height: 163px;
+}
+
+.galleria{
+    margin: 0 auto;
+    max-width: 700px;
+    height: 400px;
+    background: #000;
+}
+
+.galleria img {
+    width: 50%;
+}
+
+.mobile-appear{
+    display: none;
+}
+
+/* ***************************************** */
+/* ***************************************** */
+
+/* EMBED Responsively styles */
+
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ***************************************** */
+/* ***************************************** */
+
+/* Validator Error Message Styles */
+
+#cname-error {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.7em;
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+
+#cemail-error {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.7em;
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+
+#ccomment-error {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.7em;
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+
+#cname-error::before,
+#ccomment-error::before,
+#cemail-error::before{
+    content: url(../images/error.png);
+    margin-right: 5px;
+}
+
+/* ***************************************** */
+/* ***************************************** */
+
+/* Form Styles Here */
+
+.cmxform legend{
+    margin-top: 10px;
+}
+
+.cmxform input, select{
+    margin: 5px 0;
+}
+
+.cmxform textarea{
+    resize: none;
+    font-size: 12pt;
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+.cmxform input{
+    line-height: 10px;
+}
+
+form #cname,
+form #cemail{
+    height: 20px;
+    font-size: 12pt;
+    width: 100%;
+}
+
+/* ***************************************** */
+/* ***************************************** */
+
+/* Typography styles */
+
+#aside h2, h3{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.headline h1 {
+    display: block;
+    width: 100%;
+    font-weight: 900;
+    font-size: 3em;
+    margin: 0 0 20px 0;
+}
+
+#main h2, h3{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#aside p{
+    margin-bottom: 10px;
+    line-height: 1.7em;
+}
+
+#main p{
+    margin-bottom: 10px;
+    line-height: 1.7em;
+}
+
+figcaption{
+    font-style: italic;
+    line-height: 1.05em;
+    font-size: 0.7em;
+}
+
+figcaption strong{
+    font-weight: 600;
+}
+
+.welcome-wrapper h1{
+    display: inline-block;
+    margin: 15px 0;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.welcome-wrapper p{
+    line-height: 1.7em;
+    margin: 0 0 10px 0;
+}
+
+.map {
+    text-decoration: underline;
+}
+
+.third h1{
+    line-height: 173px;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+/* ***************************************** */
+/* ***************************************** */
+
+/* media queries */
+
+/* Desktop */
+@media all and (min-width:1400px) {
+   
+}
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+    .logo img{
+        display: block;
+        max-width: 100px;
+        margin: 5px auto;
+    }
+
+    .tablet-vanish{
+        display: none;
+    }
+
+    #social ul{
+        display: none;
+    }
+
+    .third {
+        float: none;
+        width: auto;
+        padding: 0;
+        margin-right: 0;
+    }
+
+                    /* tablet styles for locations page start here */
+
+    .a-left,
+    .a-right{
+        float: none;
+    }
+
+}
+
+/* PHONE */
+@media all and (max-width:736px) {
+    .logo img{
+        display: block;
+        max-width: 100px;
+        margin: 5px auto;
+    }
+
+    #wrapper {
+        padding: 0;
+    }
+
+    #wrapper .headline{
+        margin-left: 8%;
+        margin-top: 15px;
+    }
+
+    #main{
+        margin: 0 auto;
+        float: none;
+        width: 85%;
+    }
+
+    #aside{
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+        width: 85%;
+    }
+
+    #devtag p{
+        font-size: 0.3em;
+    }
+
+    .parallax-window {
+        clear: both;
+        min-height: 350px;
+    }
+
+    .locations .a-right{
+        float: none;
+        width: 100%;
+    }
+
+    #social ul{
+        display: none;
+    }
+
+    .mobile-vanish{
+        display: none;
+    }
+
+    .mobile-appear{
+        display: inline;
+    }
+
+    .third {
+        float: none;
+        width: auto;
+        padding: 0;
+        margin-right: 0;
+    }
+
+                    /* mobile styles for locations page start here */
+
+    .locations .a-left,
+    .locations .a-right{
+        float: none;
+        width: 95%;
+    }
+
+
+
+}

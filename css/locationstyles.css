@@ -1,0 +1,52 @@
+/* Styles applied to locations.php file which displays the Locations page on the website. */
+
+.locations #main,
+.locations #aside{
+    float: none;
+    width: 100%;
+}
+
+/* .locations p{
+    clear: both;
+    overflow: hidden;
+} */
+
+.locations img {
+    margin: 0 auto;
+    clear: both;
+    max-width: 100%;
+}
+
+.locations ul{
+    margin-bottom: 10px;
+}
+
+.a-right{
+    width: 49%;
+    float: right;
+}
+
+
+.a-left{
+    width: 49%;
+    float: left;
+}
+
+.map{
+    cursor: pointer;
+    display: inline;
+}
+
+/**********************************************/
+/**********************************************/
+
+/* Typography styles */
+
+.locations b,
+.locations h3{
+    font-weight: 800;
+}
+
+.hours{
+    margin-bottom: 20px;
+}
